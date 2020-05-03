@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "12.16.x"
+    "node": "12.16.x",
+    "npm": "6.x",
+    "yarn": "1.x"
   },
   "scripts": {
     "serve": "live-server public/",
@@ -32,11 +34,13 @@
     "jest": "25.4.0",
     "live-server": "^1.2.1",
     "moment": "2.24.0",
+    "node": "^14.0.0",
     "node-sass": "4.14.0",
     "normalize.css": "^7.0.0",
     "npm": "^6.14.4",
     "raf": "^3.4.1",
     "react": "16.13.1",
+    "react-addons-shallow-compare": "15.6.0",
     "react-dates": "21.0.0",
     "react-dom": "16.13.1",
     "react-modal": "3.11.2",
